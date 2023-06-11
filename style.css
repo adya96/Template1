@@ -1,0 +1,417 @@
+@font-face {
+    font-family: 'SansationLight';
+    src:url(..\fonts\DOTMATRI.TTF);
+    src:url(..\fonts\DOTMBold.TTF);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0px;
+    border: 0;
+    padding:0;
+    
+}
+nav
+{
+    background-color: black;
+    color:azure;
+    display:flex;
+    height:70px;
+    font-size: 15px;
+    align-items: center;
+    width: auto;
+    margin: 0;
+    padding: 20px 0px 0px 20px;
+    justify-content: space-between;
+}
+nav p
+{
+  padding: 20px 0px 0px 50px;
+  font-size: 20px;
+}
+nav ul
+{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    padding-left: 12px 16px;
+
+    
+}
+nav ul li
+{
+    padding: 20px ;
+    font-size: 20px;
+}
+.phone
+{
+    
+    display:flex;
+      width:auto;
+      background-color: black;
+    color: white;
+    
+}
+.phone-detail
+{
+    display:flex;
+    font-size:30px;
+    margin-top: 100px;
+    margin-left: 300px;
+    /*padding-top: 20px;
+   /* width: 250px;*/
+   /* padding-left: 200px;*/
+    
+    
+}
+.phone-image
+{
+    display:flex;
+    margin-top: 100px;
+    margin-left: 90px;
+    
+   /* padding-top:20px ;
+    padding-left: 200px;*/
+
+}
+.phone-text
+{
+   margin-top:250px ;
+   margin-left: 90px;
+   height:70px;
+   width:500px;
+}
+.phone-text h2{
+    font-size: 35px;
+}
+.phone-text p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.button
+{
+    padding:12px 20px 12px 18px;
+    border-radius: 3px;
+    display: inline;
+    background-color: white;
+    color: grey;
+}
+button{
+    margin-top: 30px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor:pointer;
+    padding:0;
+
+}
+.text
+{
+    padding-top: 90.15px;
+    padding-bottom: 151px;
+    width: auto;
+    background-color: black;
+    color: white;
+   /*margin-left: 100px;
+   /* margin-right: 270px;*/
+  
+
+  
+   
+}
+.text p
+{
+    display: inline-block;
+    font-size: 20px;
+}
+.fresh-air
+{
+    display:flex;
+    margin-left: 950px;
+    word-spacing: 4%;
+    letter-spacing: 4%;
+}
+.text-circle
+{
+    background-color: orangered;
+    border-radius: 50%;
+    width:20px;
+    height:20px;
+    margin-bottom: 0px;
+
+
+}
+.features
+{
+    display: flex;
+    width:auto;
+    justify-content: space-between;
+}
+.features-box{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    
+}
+.features-box img{
+    display: flex;
+    justify-content: center;
+}
+.details
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.earbuds
+{
+    display:flex;
+    justify-content: space-between;
+    width:auto;
+    height:800px;
+   /* margin-top:70px;*/
+   background-color: black;
+    color:white;
+}
+.earbud-features
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    text-align: center;
+   
+
+}
+
+.earbud-description
+{
+    
+    margin-top: 80px;
+    margin-left: 250px;
+    margin-bottom: 80px;
+    width:auto;
+    text-align: centre;
+    
+    
+    
+}
+.earbud-description p{
+    font-size:15px;
+    word-spacing: 5px;
+    width:300px;
+}
+
+
+.earbud-features-button
+{
+    font-size: 20px;
+    margin-top: 10px;
+    width:140px;
+    height:50px;
+    background-color: white;
+    color:black; 
+    border-radius: 4%;
+    
+}
+
+.earbud-features img{
+    width:368px;
+    height:370px;
+}
+.earbuds-image2
+{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.dark-tones
+{
+    display:flex;
+    justify-content: space-between;
+    width:auto;
+    height:800px;
+   /* margin-top:70px;*/
+   background-color: white;
+    color:black;
+}
+.dark-tone-features
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    text-align: center;
+   
+
+}
+.dark-tone-description
+{
+    
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+    width:auto;
+    text-align: centre;
+    
+    
+    
+}
+.dark-tone-description p{
+    font-size:15px;
+    word-spacing: 5px;
+    width:300px;
+}
+.dark-tone-features button
+{
+    font-size: 20px;
+    margin-top: 10px;
+    width:140px;
+    height:50px;
+    background-color: black;
+    color:white; 
+    border-radius: 4%;
+}
+
+.dark-tone-features img{
+    width:368px;
+    height:370px;
+}
+.dark-tone-image2
+{
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+.about-us
+{
+    display: flex;
+    
+    width:auto;
+    margin: 0;
+    background-color: #EAEDEA;
+    
+   
+    
+}
+.about-us-description
+{
+    margin-top: 200px;
+    margin-left: 20px;
+   
+}
+.about-us-description p{
+    font-size: 20px; 
+}
+footer
+{
+    background-color:#D3D3D3;
+    width:auto;
+    display: flex;
+    flex:wrap;
+    justify-content: space-between;
+    
+    
+    
+
+}
+.footer-section
+{
+ display:flex;
+ width:auto;
+ justify-content: space-between;
+ 
+ 
+}
+.footer-section ul li{
+    margin-top: 50px;
+    
+}
+.newsletter
+{
+    margin-top:50px;
+    margin-left:100px;
+}
+.list-1
+{
+    margin-left: 70px;
+}
+.list-2
+{
+    margin-left: 70px;
+}
+.list-3
+{
+    margin-left: 70px;
+}
+.list-4
+{
+    margin-left: 60px;
+}
+
+#footer-email
+{
+    width:250px;
+    height:20px;
+    padding: 10px;
+    text-align: start;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    border-color: 1px solid black ;
+}
+#footer-email-btn
+{
+    width:80px;
+    height:40px;
+    background-color: black;
+    color:white;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+}
+.narrow-bar
+{
+    
+    background-color: black;
+    color: white;
+    
+    
+}
+.narrow-bar p{
+    word-spacing: 4px;
+    letter-spacing: 2.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+
